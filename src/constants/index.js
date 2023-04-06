@@ -23,6 +23,20 @@ import {
   jobit,
   tripguide,
   threejs,
+  station,
+  appliedmedical,
+  ansible,
+  jira,
+  aws,
+  ghactions,
+  k8s,
+  linux,
+  office,
+  postman,
+  python,
+  terraform,
+  embedded,
+  meddevice,
 } from "../assets";
 
 export const navLinks = [
@@ -43,11 +57,11 @@ export const navLinks = [
 const services = [
   {
     title: "Technical Business Analyst",
-    icon: web,
+    icon: mobile,
   },
   {
     title: "Software Test Engineer",
-    icon: mobile,
+    icon: embedded,
   },
   {
     title: "Cloud Engineer",
@@ -55,30 +69,30 @@ const services = [
   },
   {
     title: "Biomedical Engineer",
-    icon: creator,
+    icon: meddevice,
   },
 ];
 
 const technologies = [
   {
     name: "Python",
-    icon: html,
+    icon: python,
   },
   {
     name: "Terraform",
-    icon: css,
+    icon: terraform,
   },
   {
     name: "AWS",
-    icon: javascript,
+    icon: aws,
   },
   {
     name: "Ansible",
-    icon: typescript,
+    icon: ansible,
   },
   {
     name: "Kubernetes",
-    icon: reactjs,
+    icon: k8s,
   },
   {
     name: "Networking",
@@ -86,19 +100,19 @@ const technologies = [
   },
   {
     name: "Linux",
-    icon: tailwind,
+    icon: linux,
   },
   {
-    name: "CI/CD",
-    icon: nodejs,
+    name: "Github Actions",
+    icon: ghactions,
   },
   {
     name: "JIRA",
-    icon: mongodb,
+    icon: jira,
   },
   {
     name: "Microsoft Office",
-    icon: threejs,
+    icon: office,
   },
   {
     name: "git",
@@ -106,7 +120,7 @@ const technologies = [
   },
   {
     name: "Postman",
-    icon: figma,
+    icon: postman,
   },
   {
     name: "docker",
@@ -118,7 +132,7 @@ const experiences = [
   {
     title: "Sr. Technical Business Analyst",
     company_name: "Station Digital Media",
-    icon: starbucks,
+    icon: station,
     iconBg: "#383E56",
     date: "September 2022 - PRESENT",
     points: [
@@ -131,7 +145,7 @@ const experiences = [
   {
     title: "Technical Business Analyst",
     company_name: "Station Digital Media",
-    icon: tesla,
+    icon: station,
     iconBg: "#E6DEDD",
     date: "August 2021 - September 2022",
     points: [
@@ -143,7 +157,7 @@ const experiences = [
   {
     title: "Software Engineer in Test",
     company_name: "Applied Medical",
-    icon: shopify,
+    icon: appliedmedical,
     iconBg: "#383E56",
     date: "January 2021 - August 2021",
     points: [
@@ -169,19 +183,19 @@ const projects = [
       "Utilized a template web portfolio summarizing key information using React.js. Containerized web application into a Docker container and pushed to Docker hub.Deployed container to AWS EC2/S3 provisioned through Terraform and configured using an Ansible playbook.  ",
     tags: [
       {
-        name: "react",
+        name: "kubernetes",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "virtualbox",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "ansible",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: k8s,
     source_code_link: "https://github.com/",
   },
   {
@@ -190,20 +204,20 @@ const projects = [
       "Built template web portfolio leveraging React.js and dockerized and pushed container to DockerHub.",
     tags: [
       {
-        name: "react",
+        name: "docker",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Reactjs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "GithubActions",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: docker,
+    source_code_link: "https://github.com/98jnguyen/web_portfolio_v2",
   },
   {
     name: "Provision AWS Resources to run server using Terraform",
@@ -211,19 +225,19 @@ const projects = [
       "Utilized Terraform IaC to provision and deploy AWS EC2 instances, VPC, security groups, and VPC.",
     tags: [
       {
-        name: "nextjs",
+        name: "terraform",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "AWS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "IaC",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: terraform,
     source_code_link: "https://github.com/",
   },
 ];
